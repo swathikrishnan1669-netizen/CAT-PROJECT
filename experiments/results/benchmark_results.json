@@ -1,0 +1,90 @@
+[
+  {
+    "name": "Experiment A - 5m Gaps (Baseline)",
+    "system_type": "BASELINE",
+    "gap_duration": 5,
+    "mae": 0.038,
+    "rmse": 0.04,
+    "confidence": 82.5,
+    "uncertain_exposure": 6.0,
+    "precision": 0.86,
+    "recall": 0.9
+  },
+  {
+    "name": "Experiment A - 5m Gaps (Improved)",
+    "system_type": "IMPROVED",
+    "gap_duration": 5,
+    "mae": 0.128,
+    "rmse": 0.133,
+    "confidence": 66.5,
+    "uncertain_exposure": 3.25,
+    "precision": 0.96,
+    "recall": 0.97
+  },
+  {
+    "name": "Experiment B - 15m Gaps (Baseline)",
+    "system_type": "BASELINE",
+    "gap_duration": 15,
+    "mae": 0.209,
+    "rmse": 0.223,
+    "confidence": 57.5,
+    "uncertain_exposure": 18.0,
+    "precision": 0.82,
+    "recall": 0.86
+  },
+  {
+    "name": "Experiment B - 15m Gaps (Improved)",
+    "system_type": "IMPROVED",
+    "gap_duration": 15,
+    "mae": 0.171,
+    "rmse": 0.182,
+    "confidence": 46.9,
+    "uncertain_exposure": 9.75,
+    "precision": 0.95,
+    "recall": 0.96
+  },
+  {
+    "name": "Experiment C - 30m Gaps (Baseline)",
+    "system_type": "BASELINE",
+    "gap_duration": 30,
+    "mae": 0.656,
+    "rmse": 0.706,
+    "confidence": 20.0,
+    "uncertain_exposure": 36.0,
+    "precision": 0.76,
+    "recall": 0.8
+  },
+  {
+    "name": "Experiment C - 30m Gaps (Improved)",
+    "system_type": "IMPROVED",
+    "gap_duration": 30,
+    "mae": 0.229,
+    "rmse": 0.242,
+    "confidence": 27.7,
+    "uncertain_exposure": 19.5,
+    "precision": 0.92,
+    "recall": 0.95
+  },
+  {
+    "name": "Experiment D - 60m Gaps (Baseline)",
+    "system_type": "BASELINE",
+    "gap_duration": 60,
+    "mae": 1.652,
+    "rmse": 2.012,
+    "confidence": 10.0,
+    "uncertain_exposure": 72.0,
+    "precision": 0.64,
+    "recall": 0.68
+  },
+  {
+    "name": "Experiment D - 60m Gaps (Improved)",
+    "system_type": "IMPROVED",
+    "gap_duration": 60,
+    "mae": 1.416,
+    "rmse": 1.716,
+    "confidence": 9.7,
+    "uncertain_exposure": 39.0,
+    "precision": 0.88,
+    "recall": 0.92
+  }
+]
